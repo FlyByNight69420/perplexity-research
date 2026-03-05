@@ -58,14 +58,14 @@ def resolve_provider(env):
     if has_perplexity and (not has_openrouter or not prefer_openrouter):
         return (
             "https://api.perplexity.ai/chat/completions",
-            "sonar-pro",
+            "sonar-pro-search",
             perplexity_key,
             "Perplexity",
         )
     else:
         return (
             "https://openrouter.ai/api/v1/chat/completions",
-            "perplexity/sonar-pro",
+            "perplexity/sonar-pro-search",
             openrouter_key,
             "OpenRouter",
         )
