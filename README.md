@@ -2,9 +2,22 @@
 
 Claude Code plugin that replaces web search with Perplexity Sonar for current, cited research results.
 
-## Setup
+## Install
 
-1. Create `~/.claude/.env` with at least one API key:
+```bash
+npx claude-code plugin add FlyByNight69420/perplexity-research
+```
+
+Or from a local clone:
+
+```bash
+git clone https://github.com/FlyByNight69420/perplexity-research.git
+npx claude-code plugin add ./perplexity-research
+```
+
+## Configuration
+
+Add at least one API key to `~/.claude/.env`:
 
 ```bash
 # Option 1: Perplexity directly (preferred)
@@ -15,23 +28,6 @@ OPENROUTER_APIKEY_RESEARCH='sk-or-v1-...'
 
 # Optional: prefer OpenRouter when both keys are set
 # RESEARCH_PREFER_OPENROUTER=1
-```
-
-2. Install the plugin in Claude Code:
-
-```bash
-# Add this repo as a marketplace
-/plugin marketplace add yourusername/perplexity-research
-
-# Install the plugin
-/plugin install perplexity-research@perplexity-research
-```
-
-Or install from a local clone:
-
-```bash
-/plugin marketplace add /path/to/perplexity-research
-/plugin install perplexity-research@perplexity-research
 ```
 
 ## How it works
