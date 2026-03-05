@@ -5,14 +5,14 @@ Claude Code plugin that replaces web search with Perplexity Sonar for current, c
 ## Install
 
 ```bash
-npx claude-code plugin add FlyByNight69420/perplexity-research
+npx skills add FlyByNight69420/perplexity-research
 ```
 
 Or from a local clone:
 
 ```bash
 git clone https://github.com/FlyByNight69420/perplexity-research.git
-npx claude-code plugin add ./perplexity-research
+npx skills add ./perplexity-research
 ```
 
 ## Configuration
