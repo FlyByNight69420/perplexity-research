@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "name": "perplexity-research",
+      "description": "Perplexity Sonar-powered research skill -- replaces web search with current, cited results",
+      "source": {
+        "source": "self"
+      },
+      "category": "research"
+    }
+  ]
+}

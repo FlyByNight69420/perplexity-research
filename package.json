@@ -1,0 +1,19 @@
+{
+  "name": "perplexity-research",
+  "version": "0.1.0",
+  "description": "Claude Code plugin: Perplexity Sonar-powered research skill for up-to-date information",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "perplexity",
+    "sonar",
+    "research"
+  ],
+  "files": [
+    ".claude-plugin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ]
+}
